@@ -76,3 +76,22 @@ footer {
     grid-template-columns: 2fr 1fr 1fr;
     padding: 2rem;
 }
+
+*{
+    background-color: var(--Primary-color);
+}
+
+/* section {
+    display: flex;
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+/* } */ 
+
+nav  {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* align-self: flex-start; */
+  }
+
+ 
