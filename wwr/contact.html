@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact Us - Ripple Thrils</title>
+    <meta name="description"
+        content="Experience thrilling whitewater rafting! Navigate wild rapids, enjoy stunning scenery, and make unforgettable memories. Book your adventure today!">
+    <meta name="author" content="Ukpono B. Essien">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/rafting.css">
+
+</head>
+
+<body>
+    <header>
+        <img src="images/logo2.png" alt="logo" width="100">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <main class="grid contactus">
+        <h1>Contact Us</h1>
+        <form action="#" class="contactform">
+            <fieldset>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required placeholder="John Doe">
+
+                <label for="emailaddress">Email:</label>
+                <input type="email" id="emailaddress" name="email" required>
+            </fieldset>
+            <fieldset class="radio-inputs">
+                <input type="radio" id="general" name="drone" value="general" checked>
+                <label for="general">General Question</label>
+
+                <input type="radio" id="reservation" name="drone" value="reservation">
+                <label for="reservation">Reservation Question</label>
+
+                <input type="radio" id="website" name="web" value="website">
+                <label for="website">Website Suggestion</label>
+            </fieldset>
+
+            <fieldset>
+                <label for="message">Message</label>
+                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+            </fieldset>
+            <div class="signup">
+                <input type="checkbox" name="newsletter" id="newsletter">
+                <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+            </div>
+            <button type="submit" class="submit button">Send Message</button>
+        </form>
+
+        <section class="address">
+            <h2>Our Contact Info</h2>
+            <address>
+                <p>RIPPLE THRILLS</p>
+                <P>No. 11 Becky 3 estate, Karu, Abuja</P>
+                <p>Phone: <a href="tel:+234-703-582-9831"></a></p>
+                <p>Email: <a href="mailto:treybassey@gmail.com"></a></p>
+            </address>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7765.394478179929!2d7.581035835848264!3d9.00616875308287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1739544441007!5m2!1sen!2sng"
+                width="600" height="450" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade" class="gmap"></iframe>
+        </section>
+        <hr class="hrule">
+        <section class="grid employees">
+            <h2>Our Employees</h2>
+            <figure>
+                <img src="images/CEO.jpeg" alt="CEO">
+                <figcaption>James Brown, CEO</figcaption>
+            </figure>
+            <figure>
+                <img src="images/Manager.jpg" alt="Manager">
+                <figcaption>Kingsley John, Manager</figcaption>
+            </figure>
+            <figure>
+                <img src="images/TourGuide.jpg" alt="Tourguide">
+                <figcaption>Sam Chris, Tour Guide</figcaption>
+            </figure>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright &copy; 2025 🌴 Ripple Thrills 🌴 Ukpono Bassey Essien</p>
+        <nav class="sociallinks">
+            <a href="https://facebook.com">
+                <img src="images/facebook.png" alt="Facebook">
+            </a>
+            <a href="https://twitter.com">
+                <img src="images/twitter.png" alt="twitter">
+            </a>
+            <a href="http://instagram.com">
+                <img src="images/instagram2.png" alt="instagram">
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>
