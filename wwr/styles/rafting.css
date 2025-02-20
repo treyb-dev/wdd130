@@ -113,7 +113,27 @@ nav a:hover {
     display: grid;
     grid-template-columns: 2fr 1fr 2fr;
     gap: 2rem;
-    margin: 50px 0;
+    padding: 30px;
+    margin: 30px auto;
+    border-radius: 8px;
+    background-color: #F4F1E1; /* Creamy light tan */
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);/* Subtle shadow */
+    max-width: 1200px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #6B4F3D; 
+}
+
+.history h2 {
+    grid-column: 1 / -1;
+    text-align: center;
+    color: #6B4F3D; /* Warm brown for heading text */
+    font-size: 3rem;
+    font-weight: 600;
+    padding: 10px;
+    /* background-color: #D9C4A1; */
+    border-radius: 6px;
+    margin-bottom: 20px;
 }
 
 .history h2, 
@@ -124,7 +144,26 @@ nav a:hover {
 }
 
 .history img {
-    width: 400px;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+}
+
+
+.history p {
+    line-height: 1.6;
+    font-size: 1.1rem;
+    color: #5A4A43; /* Slightly darker gray-brown for text */
+    background-color: #F4F1E1; /* Keeping creamy light tan */
+    padding: 15px;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+    margin-top: 15px;
+}
+
+.history p:hover {
+    background-color: rgba(10, 10, 84, 0.7); /* Darkening the background a bit on hover */
 }
 
 .adventures {
