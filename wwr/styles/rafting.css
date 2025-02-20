@@ -154,7 +154,7 @@ nav a:hover {
 .history p {
     line-height: 1.6;
     font-size: 1.1rem;
-    color: #5A4A43; /* Slightly darker gray-brown for text */
+    color: #000000; /* Slightly darker gray-brown for text */
     background-color: #F4F1E1; /* Keeping creamy light tan */
     padding: 15px;
     border-radius: 6px;
@@ -163,7 +163,7 @@ nav a:hover {
 }
 
 .history p:hover {
-    background-color: rgba(10, 10, 84, 0.7); /* Darkening the background a bit on hover */
+    background-color: whitesmoke; /* Darkening the background a bit on hover */
 }
 
 .adventures {
